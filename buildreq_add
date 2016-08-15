@@ -1,0 +1,27 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+apache-maven2
+jdk-apache-parent
+jdk-apache-resource-bundles
+jdk-commons-collections
+jdk-doxia
+jdk-doxia-integration-tools
+jdk-doxia-sitetools
+jdk-glassfish-servlet-api
+jdk-maven-archiver
+jdk-maven-artifact-resolver
+jdk-maven-common-artifact-filters
+jdk-maven-filtering
+jdk-maven-javadoc-plugin
+jdk-maven-remote-resources-plugin
+jdk-maven-reporting-api
+jdk-maven-reporting-exec
+jdk-maven-shared-utils
+jdk-maven-site-plugin
+jdk-plexus-archiver
+jdk-plexus-build-api
+jdk-plexus-i18n
+jdk-plexus-resources
+jdk-plexus-velocity
+jdk-velocity
+jdk-xbean
