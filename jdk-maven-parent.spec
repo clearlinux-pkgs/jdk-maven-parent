@@ -4,7 +4,7 @@
 #
 Name     : jdk-maven-parent
 Version  : 27
-Release  : 3
+Release  : 4
 URL      : http://repo1.maven.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27-source-release.zip
 Source0  : http://repo1.maven.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27-source-release.zip
 Summary  : No detailed summary available
@@ -102,12 +102,12 @@ python3 /usr/share/java-utils/pom_editor.py pom_remove_plugin  :apache-rat-plugi
 python3 /usr/share/java-utils/mvn_build.py
 
 %install
-xmvn-install  -R .xmvn-reactor -n maven-parent-27 -d %{buildroot}
+xmvn-install  -R .xmvn-reactor -n maven-parent -d %{buildroot}
 
 %files
 %defattr(-,root,root,-)
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/maven-metadata/maven-parent-27.xml
-/usr/share/maven-poms/maven-parent-27/maven-parent.pom
+/usr/share/maven-metadata/maven-parent.xml
+/usr/share/maven-poms/maven-parent/maven-parent.pom
