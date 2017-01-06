@@ -4,7 +4,7 @@
 #
 Name     : jdk-maven-parent
 Version  : 27
-Release  : 4
+Release  : 5
 URL      : http://repo1.maven.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27-source-release.zip
 Source0  : http://repo1.maven.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27-source-release.zip
 Summary  : No detailed summary available
